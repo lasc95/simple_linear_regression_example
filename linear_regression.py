@@ -12,7 +12,6 @@ noise = 0.5
 np.random.seed(42)
 t = np.linspace(0, 10, 1000) # tiempo
 y = amp * np.sin(2 ** np.pi * freq * t) + np.random.normal(0, noise, len(t))
-import pdb; pdb.set_trace()
 
 # creación de etiquetas
 lags = 5
